@@ -1,11 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './header'
+import Home from './pages/home'
+import Footer from './footer'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello VSS</h1>
-    </div>
+    <>
+      <Header />
+      <Home />
+      <Footer />
+    </>
   );
 }
 
