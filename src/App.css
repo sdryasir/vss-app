@@ -64,7 +64,21 @@ nav .nav-item {
 }
 
 
-
+.footer-wrapper .payment-methods{
+    background-color: #eee;
+    padding: 12px 0;
+}
+.footer-wrapper .payment-methods ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.footer-wrapper .payment-methods ul li{
+    list-style-type: none;
+}
+.footer-wrapper .payment-methods ul li img{
+    width: 80px;
+}
 
 
 

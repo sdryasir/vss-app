@@ -1,6 +1,11 @@
+import HomeSlider from "../../components/main-home-slider";
+import Products from "../../components/products";
 function Home() {
     return (
-        <h1>Home Page</h1>
+        <>
+            <HomeSlider />
+            <Products />
+        </>
     )
 }
 export default Home;

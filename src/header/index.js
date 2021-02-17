@@ -28,12 +28,11 @@ function Header() {
                         </ul>
                     </div>
                 </nav>
-
             </div>
             <div className="category-slider-wrapper">
                 <div className="container">
                     <div className="row">
-                        <div className="col-2 col-md-2 col-sm-2 d-flex align-items-center">
+                        <div className="col-2 col-md-2 col-sm-2 d-flex justify-content-center align-items-center">
                             <div className="category-icon">
                                 <img src={category} alt="" />
                             </div>
