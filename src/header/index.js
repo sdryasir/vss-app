@@ -3,7 +3,7 @@ import { categories } from "../data/categories";
 import category from '../categories.svg'
 function Header() {
     return (
-        <>
+        <header className="header">
             <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <div className="container-fluid">
@@ -33,7 +33,7 @@ function Header() {
             <div className="category-slider-wrapper">
                 <div className="container">
                     <div className="row">
-                        <div className="col-2 col-md-2 col-sm-2">
+                        <div className="col-2 col-md-2 col-sm-2 d-flex align-items-center">
                             <div className="category-icon">
                                 <img src={category} alt="" />
                             </div>
@@ -44,7 +44,7 @@ function Header() {
                     </div>
                 </div>
             </div>
-        </>
+        </header>
 
     )
 }
